@@ -1,0 +1,37 @@
+{
+    "auth": {
+      "username": "khimea_ZmgaNF",
+      "access_key": "LZsea2R1EkG7qMUrgqS9"
+    },
+    "browsers": [{
+        "browser": "chrome",
+        "os": "Windows 10",
+        "versions": ["latest", "latest - 1"]
+      },
+      {
+        "browser": "firefox",
+        "os": "OS X Mojave",
+        "versions": ["latest", "latest - 1"]
+      },
+      {
+        "browser": "edge",
+        "os": "OS X Catalina",
+        "versions": ["latest"]
+      }
+    ],
+    "run_settings": {
+      "cypress_config_file": "./cypress.config.js",
+      "cypress_version": "10.latest",
+      "project_name": "cypress-front-2",
+      "build_name": "Pruebas browserstack",
+      "parallels": "1",
+      "spec_timeout": 30,
+      "npm_dependencies": {
+        "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+        "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+        "cypress": "^10.9.0",
+        "esbuild": "^0.15.10",
+        "multiple-cucumber-html-reporter": "^3.0.1"
+      }
+    }
+  }
