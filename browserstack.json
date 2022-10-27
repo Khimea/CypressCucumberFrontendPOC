@@ -1,7 +1,7 @@
 {
     "auth": {
-      "username": "khimea_ZmgaNF",
-      "access_key": "LZsea2R1EkG7qMUrgqS9"
+      "username": "usernameBrowserStack",
+      "access_key": "accesKeyBrowserStack"
     },
     "browsers": [{
         "browser": "chrome",
