@@ -19,6 +19,10 @@ Understand how many parallel sessions you need by using our [Parallel Test Calcu
 ## Integrate your test suite
 ```
 npm i @badeball/cypress-cucumber-preprocessor
+npm i @bahmutov/cypress-esbuild-preprocessor
+npm i cypress
+npm i esbuild
+npm i multiple-cucumber-html-reporter
 ```
 
 2. Setup
