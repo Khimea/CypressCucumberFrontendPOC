@@ -5,4 +5,4 @@
 
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
 
-<img src = "https://asset.brandfetch.io/idIq_kF0rb/idZxkJkFIi.svg" height = "200">
+<img src = "http://www.w3.org/2000/svg" height = "200">
