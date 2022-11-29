@@ -10,7 +10,7 @@
 
 - Clone the repo
 - Install dependencies `npm install`
-- Set your [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings) in [browserstack.json](browserstack.json) `npx setup --username userName --key accessKey``
+- Set your [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings) in [browserstack.json](browserstack.json) `npx setup --username userName --key accessKey`
 - To run tests on private websites,
   - run `npm run test:cypress` or `yarn run test:remoto`
 
