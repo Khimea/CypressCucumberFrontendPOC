@@ -1,12 +1,14 @@
 Feature: Login page
 
-  Background:
-    Given Quiero logear en la pagina saucedemo
-  Scenario: Login OK pasoe en conjunto
-    When Entro con el usuario "standard_user", con contraseña "secret_sauce", y clcikeamos en login
-    Then la url tiene que llevarnos al inventario
-  Scenario: Login OK 2 pasos individuales
-    When Entro con el usuario "standard_user"
-    And con contraseña "secret_sauce"
-    And Click en login
-    Then validamos que estamos en el inventario
+  Scenario: Escenario 1
+    Given Dirigirse a demoblaze website
+    When Seleccionar producto Samsung galaxy s7
+      * Añadir producto al carro
+      * Volver al home
+      * Seleccionar producto Sony xperia z5
+      * Añadir producto al carro
+      * Visualizar carrito
+      * Crear orden de compra
+      * Completar formulario compra
+      * Comprar orden
+    Then Compra exitosa
