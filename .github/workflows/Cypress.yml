@@ -1,4 +1,4 @@
-name: Test con Selenium
+name: Test con Cypress
 
 on:
   push:
